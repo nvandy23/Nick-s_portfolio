@@ -33,7 +33,7 @@ function Projects(props) {
           <button>Github</button>
         </a>
         <a href={project.live}>
-          <button>live site</button>
+          <button>livesite</button>
         </a>
       </div>
     ));

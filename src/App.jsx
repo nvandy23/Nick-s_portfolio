@@ -15,11 +15,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Routes>
+    <div className = 'text-orange-200'>
+    <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
       </Routes>
+    </div>
       <Footer />
     </div>
   );

@@ -4,27 +4,26 @@ function Header() {
 
   //an example of an inline style for the nav tag for an initial layout - later additions, or 
 
-  const navStyle = {
-    display: "flex",
-    justifyContent: "space-around",
-    borderBottom: ".2rem solid black",
-    padding: ".5rem",
-    width: "90%",
-    margin: "auto",
-  };
+  // const navStyle = {
+  //   display: "flex",
+  //   justifyContent: "space-around",
+  //   borderBottom: ".2rem solid black",
+  //   padding: ".5rem",
+  //   width: "90%",
+  //   margin: "auto",
+  // };
 
   return (
-    <header>
-      <h1>My Portfolio Page</h1>
-      <nav style={navStyle}>
+    <header className= "bg-stone-600 pt-6">
+      <nav className ='flex justify-around'>
         <Link to="/">
-          <div>HOME</div>
+          <p>HOME</p>
         </Link>
         <Link to="/about">
-          <div>ABOUT</div>
+          <p>ABOUT</p>
         </Link>
         <Link to="/projects">
-          <div>PROJECTS</div>
+          <p>PROJECTS</p>
         </Link>
       </nav>
     </header>

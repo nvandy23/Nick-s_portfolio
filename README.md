@@ -1,6 +1,9 @@
 
 # Nick's_portfolio
+[Portfolio](https://marvelous-tapioca-7f19fa.netlify.app/")
+
 Greetings! 🚀 Welcome to the initial glimpse of my evolving portfolio as I navigate through the immersive 12-week software engineering bootcamp at General Assembly. Currently immersed in the world of React, I'm passionately working on an exciting single-page application – stay tuned for its grand reveal!
+
 
 # Technologies used:
 React 

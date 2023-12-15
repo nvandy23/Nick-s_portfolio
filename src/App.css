@@ -10,4 +10,21 @@
   text-align: center;
 } */
 
+@layer components {
+  button {
+    @apply text-2xl border-2 text-neutral-50 flex-auto justify-between ;
+    
+  }
+  
+  .btn-primary {
+    @apply text-cyan-500;
+  }
+}
+
+.background-image {
+  background-image: url('./assets/Background.jpeg');
+  background-size: cover;
+  height:100vh;
+
+}
 

@@ -16,11 +16,11 @@ function Header() {
   return (
     <header className= "bg-stone-600 pt-6">
       <nav className ='flex justify-around'>
+        <Link to="/contact">
+          <p>CONTACT ME</p>
+        </Link>
         <Link to="/">
           <p>HOME</p>
-        </Link>
-        <Link to="/about">
-          <p>ABOUT</p>
         </Link>
         <Link to="/projects">
           <p>PROJECTS</p>

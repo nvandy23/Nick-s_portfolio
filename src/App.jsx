@@ -6,20 +6,20 @@ import Footer from "./components/Footer";
 import { Route, Routes } from "react-router-dom";
 
 // IMPORT PAGES
-import Home from "./pages/Home";
-import About from "./pages/About";
+import Home from "./pages/Contact";
+import About from "./pages/Home";
 import Projects from "./pages/Projects";
 
 function App() {
 
   return (
-    <div className="App">
+    <div className="background-image">
       <Header />
-    <div className = 'text-orange-200'>
+    <div className = 'text-orange-200 flex content-around'>
     <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route path="/contact" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/" element={<About />} />
       </Routes>
     </div>
       <Footer />

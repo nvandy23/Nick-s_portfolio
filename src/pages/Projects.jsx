@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import "./Projects.css";
 function Projects(props) {
   // create state to hold projects
   const [projects, setProjects] = useState(null);
@@ -26,8 +26,8 @@ function Projects(props) {
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
     return projects.map((project) => (
-      <div key ={project.id}>
-        <h1>{project.name}</h1>
+      <div key ={project.id} className = "project-image-container text-center " >
+        {/* <h1>{project.name}</h1> */}
         <img src={project.image} />
         <a href={project.git}>
           <button>Github</button>

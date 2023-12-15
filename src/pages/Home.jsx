@@ -23,7 +23,7 @@ function About() {
   // define a function that will return the JSX needed once we get the data
   const loaded = () => (
     <div className="App">
-        <img src={about.headshot} className="rounded-full flex justify-center " alt="Headshot" />
+        <img src={about.headshot} className="rounded-full inline-block " alt="Headshot" />
         <div className="ml-4">
           <h2>{about.name}</h2>
           <h3>{about.email}</h3>

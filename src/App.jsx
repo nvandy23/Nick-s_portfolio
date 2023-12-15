@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="background-image">
       <Header />
-    <div className = 'text-orange-200 flex content-around'>
+    <div className = 'text-orange-200'>
     <Routes>
         <Route path="/contact" element={<Home />} />
         <Route path="/projects" element={<Projects />} />

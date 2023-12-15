@@ -3,17 +3,15 @@ import '../App.css'
 function Contact(props) {
     return (
 
-        <div className = "App text-center ">
+        <div className = "App inline-flex  ">
        <label htmlFor="textInput">Your email:</label>
       <input
         type="text"
         id="textInput"
         placeholder="Enter email..."
       />
-      <p>You typed:</p>
        <div className="footer-container">
-      <p className="footer-text">Contact Me</p>
-      <div className="contact-logos-container">
+      <div className="links-container">
         <a
           href="https://github.com/nvandy23"
           rel="noopener noreferrer"
@@ -36,7 +34,9 @@ function Contact(props) {
        <button>Email</button>
         </a> 
         <a
-        href="https://docs.google.com/document/d/1FVOBc9EDGWx9oIHxmBLtVrNn0CrjSGz6bL58MOQXFPA/edit"
+        href="https://docs.google.com/document/d/e/2PACX-1vR0I1dUm59OedHx2HAJYh4tiG4nahh4cXnuPY20h0vt_SrPtUrMV86wawJlU3Ergifn5ipZuhmVRxtT/pub"
+        target="_blank"
+        rel="noopener noreferrer"
         >
        <button>Resume</button>
         </a> 

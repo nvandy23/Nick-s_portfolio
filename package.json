@@ -28,6 +28,6 @@
     "postcss-nested": "^6.0.1",
     "postcss-nesting": "^12.0.1",
     "tailwindcss": "^3.3.6",
-    "vite": "^5.0.8"
+    "vite": "^5.0.12"
   }
 }

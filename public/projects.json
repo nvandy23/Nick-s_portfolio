@@ -10,5 +10,20 @@
       "live": "https://beatbuddy-7a9e4cc3fd5d.herokuapp.com/",
       "git": "https://github.com/connorgunter/music-playlist-app?tab=readme-ov-file",
       "image": "https://private-user-images.githubusercontent.com/31771870/287303119-c519b7fd-9de4-49df-a05b-c0a48668814b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDI1MTgwMDUsIm5iZiI6MTcwMjUxNzcwNSwicGF0aCI6Ii8zMTc3MTg3MC8yODczMDMxMTktYzUxOWI3ZmQtOWRlNC00OWRmLWEwNWItYzBhNDg2Njg4MTRiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjE0VDAxMzUwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc1ZDZmMDRiNDM0ZGY2MWY2ZjViMzdiNGMyYjZmYTM3YTRiZjY2MjFjNGJlOTY2OWUxOGNhNTQzNjM4MzE1Y2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.HkWVsFy4N3W8lMajO2k7ewwnkBKxEhYjdd-DLJzXWHQ"
-    }
+    },
+
+    {
+      "name": "Allstar Analytics",
+      "live": "https://tiny-faun-82bd85.netlify.app/",
+      "git": "https://github.com/nvandy23/Allstar-analytics",
+      "image": "https://github.com/nvandy23/Allstar-analytics/blob/main/src/assets/player_details.jpg"
+    },
+
+    {
+    "name": "StreamSeek",
+    "live": "https://beatbuddy-7a9e4cc3fd5d.herokuapp.com/",
+    "git": "https://github.com/connorgunter/music-playlist-app?tab=readme-ov-file",
+    "image": "https://private-user-images.githubusercontent.com/31771870/287303119-c519b7fd-9de4-49df-a05b-c0a48668814b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDI1MTgwMDUsIm5iZiI6MTcwMjUxNzcwNSwicGF0aCI6Ii8zMTc3MTg3MC8yODczMDMxMTktYzUxOWI3ZmQtOWRlNC00OWRmLWEwNWItYzBhNDg2Njg4MTRiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjE0VDAxMzUwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc1ZDZmMDRiNDM0ZGY2MWY2ZjViMzdiNGMyYjZmYTM3YTRiZjY2MjFjNGJlOTY2OWUxOGNhNTQzNjM4MzE1Y2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.HkWVsFy4N3W8lMajO2k7ewwnkBKxEhYjdd-DLJzXWHQ"
+  }
+
   ]

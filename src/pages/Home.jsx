@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import '../App.css';
 import Projects from "./Projects.jsx";
+import Contact from "./Contact.jsx"
 
 function About() {
   const [about, setAbout] = useState(null);
@@ -30,6 +31,7 @@ function About() {
     <>
       {about ? loaded() : <h1>Loading...</h1>}
       <Projects />
+      <Contact />
     </>
   );
 }

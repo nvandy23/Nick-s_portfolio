@@ -2,8 +2,8 @@ import '../App.css';
 
 function Contact(props) {
   return (
-    <div className="App inline-flex flex-col items-center justify-center">
-      <div className="mb-4">
+    <div className="App flex flex-col items-center justify-center">
+      <div className="mb-4 text-center">
         <label htmlFor="textInput">Your email:</label>
         <input
           type="text"
@@ -13,7 +13,7 @@ function Contact(props) {
         />
       </div>
 
-      <div className="flex">
+      <div className="flex space-x-2">
         <a
           href="https://github.com/nvandy23"
           rel="noopener noreferrer"

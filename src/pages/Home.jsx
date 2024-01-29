@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import '../App.css';
 import Projects from "./Projects.jsx";
-import Contact from "./Contact.jsx"
-import Skill from "./Skills.jsx"
+import Contact from "./Contact.jsx";
+import Skill from "./Skills.jsx";
 
 function About() {
   const [about, setAbout] = useState(null);
@@ -18,12 +18,14 @@ function About() {
   }, []);
 
   const loaded = () => (
-    <div className="App" id="About">
-      <img src={about.headshot} className="rounded-full inline-block " alt="Headshot" />
-      <div className="ml-4">
-        <h2>{about.name}</h2>
-        <h3>{about.email}</h3>
-        <p>{about.bio}</p>
+    <div className="App text-center" id="About">
+      <div className="flex flex-col items-center">
+        <img src={about.headshot} className="rounded-full mb-4 w-40 h-40" alt="Headshot" />
+        <h2 className="text-xl font-bold">{about.name}</h2>
+        <h3 className="text-gray-500">{about.email}</h3>
+      </div>
+      <div className="mx-auto max-w-screen-md">
+        <p className="text-center">{about.bio}</p>
       </div>
     </div>
   );
@@ -31,7 +33,7 @@ function About() {
   return (
     <>
       {about ? loaded() : <h1>Loading...</h1>}
-      <Skill/>
+      <Skill />
       <Projects />
       <Contact />
     </>
@@ -39,4 +41,6 @@ function About() {
 }
 
 export default About;
+
+
 

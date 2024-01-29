@@ -30,8 +30,8 @@ function About() {
 
   return (
     <>
-     <Skill/>
       {about ? loaded() : <h1>Loading...</h1>}
+      <Skill/>
       <Projects />
       <Contact />
     </>

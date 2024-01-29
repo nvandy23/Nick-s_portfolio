@@ -1,9 +1,7 @@
 import '../App.css'
-
 function Contact(props) {
     return (
-
-        <div className = "App inline-flex  ">
+        <div className = "App inline-flex">
        <label htmlFor="textInput">Your email:</label>
       <input
         type="text"
@@ -17,21 +15,19 @@ function Contact(props) {
           rel="noopener noreferrer"
           target="_blank"
         >
-     <button>Github</button>
+          <img src = ".././src/assets/github-img.png"></img>
         </a>
         <a
           href="https://www.linkedin.com/in/richard-vanderipe/"
           rel="noopener noreferrer"
           target="_blank"
         >
-         <button>
-          Linkedin
-         </button>
+          <img src= ".././src/assets/linkedin-logo.png"></img>
         </a>
         <a
         href="mailto:nvandy2373@gmail.com"
         >
-       <button>Email</button>
+       <img src=".././src/assets/gmail-image.png"></img>
         </a> 
         <a
         href="https://docs.google.com/document/d/e/2PACX-1vR0I1dUm59OedHx2HAJYh4tiG4nahh4cXnuPY20h0vt_SrPtUrMV86wawJlU3Ergifn5ipZuhmVRxtT/pub"

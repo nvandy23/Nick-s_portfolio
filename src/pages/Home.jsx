@@ -17,7 +17,7 @@ function About() {
   }, []);
 
   const loaded = () => (
-    <div className="App">
+    <div className="App" id="About">
       <img src={about.headshot} className="rounded-full inline-block " alt="Headshot" />
       <div className="ml-4">
         <h2>{about.name}</h2>

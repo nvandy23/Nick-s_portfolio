@@ -1,30 +1,20 @@
+
 import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 
 function Header() {
-
-  //an example of an inline style for the nav tag for an initial layout - later additions, or 
-
-  // const navStyle = {
-  //   display: "flex",
-  //   justifyContent: "space-around",
-  //   borderBottom: ".2rem solid black",
-  //   padding: ".5rem",
-  //   width: "90%",
-  //   margin: "auto",
-  // };
-
   return (
-    <header className= "bg-stone-600 pt-6">
-      <nav className ='flex justify-around'>
-        <Link to="/contact">
+    <header className="bg-stone-600 pt-6">
+      <nav className="flex justify-around">
+        <ScrollLink to="Contact" smooth={true} duration={500}>
           <p>CONTACT ME</p>
-        </Link>
-        <Link to="/">
+        </ScrollLink>
+        <ScrollLink to="About" smooth={true} duration={500}>
           <p>HOME</p>
-        </Link>
-        <Link to="/projects">
+        </ScrollLink>
+        <ScrollLink to="Projects" smooth={true} duration={500}>
           <p>PROJECTS</p>
-        </Link>
+        </ScrollLink>
       </nav>
     </header>
   );

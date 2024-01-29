@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import '../App.css';
 import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx"
+import Skill from "./Skills.jsx"
 
 function About() {
   const [about, setAbout] = useState(null);
@@ -29,6 +30,7 @@ function About() {
 
   return (
     <>
+     <Skill/>
       {about ? loaded() : <h1>Loading...</h1>}
       <Projects />
       <Contact />

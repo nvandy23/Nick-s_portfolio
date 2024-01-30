@@ -2,7 +2,7 @@ import '../App.css';
 
 function Contact(props) {
   return (
-    <div className="App flex flex-col items-center justify-center">
+    <div className="App flex flex-col items-center justify-center" id= "Contact">
       <div className="mb-4 text-center">
         <label htmlFor="textInput">Your email:</label>
         <input

@@ -16,7 +16,7 @@ function Projects() {
 
   const loaded = () => {
     return (
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center" id="Projects">
         {projects.map((project) => (
           <div key={project.id} className="project-image-container text-center mb-8 mx-4">
             <img src={project.image} alt={project.name} className="mb-4 rounded" />

@@ -18,29 +18,32 @@ function About() {
   }, []);
 
   const loaded = () => (
-    <div className="App text-center" id="About">
-      <div className="flex flex-col items-center">
-        <img src={about.headshot} className="rounded-full mb-4 w-40 h-40" alt="Headshot" />
-        <h2 className="text-xl font-bold">{about.name}</h2>
-        <h3 className="text-gray-500">{about.email}</h3>
-      </div>
-      <div className="mx-auto max-w-screen-md">
-        <p className="text-center">{about.bio}</p>
+    <div className="bg-gray-100 py-12" id ="About">
+      <div className="max-w-4xl mx-auto px-4">
+        <div className="flex flex-col items-center">
+          <img src={about.headshot} className="rounded-full mb-4 w-32 h-32" alt="Headshot" />
+          <h2 className="text-3xl font-semibold text-gray-800">{about.name}</h2>
+          <h3 className="text-gray-500">{about.email}</h3>
+        </div>
+        <div className="mt-8">
+          <p className="text-lg text-gray-700">{about.bio}</p>
+        </div>
       </div>
     </div>
   );
 
   return (
-    <>
+    <div>
       {about ? loaded() : <h1>Loading...</h1>}
       <Skill />
       <Projects />
       <Contact />
-    </>
+    </div>
   );
 }
 
 export default About;
+
 
 
 

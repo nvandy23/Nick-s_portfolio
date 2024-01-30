@@ -34,7 +34,7 @@ function Contact(props) {
           <img className="w-8 h-8" src=".././src/assets/gmail-image.png" alt="Gmail Logo" />
         </a>
         <a
-          href="https://docs.google.com/document/d/e/2PACX-1vR0I1dUm59OedHx2HAJYh4tiG4nahh4cXnuPY20h0vt_SrPtUrMV86wawJlU3Ergifn5ipZuhmVRxtT/pub"
+          href=".././src/assets/resume/Richard_Vanderipe-Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="mx-2"

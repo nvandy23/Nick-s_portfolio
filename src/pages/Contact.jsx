@@ -20,7 +20,7 @@ function Contact(props) {
           target="_blank"
           className="mx-2"
         >
-          <img className="w-8 h-8" src=".././src/assets/github-img.png" alt="GitHub Logo" />
+          <img className="w-8 h-8" src="../../assets/github-img.png" alt="GitHub Logo" />
         </a>
         <a
           href="https://www.linkedin.com/in/richard-vanderipe/"
@@ -28,13 +28,13 @@ function Contact(props) {
           target="_blank"
           className="mx-2"
         >
-          <img className="w-8 h-8" src=".././src/assets/linkedin-logo.png" alt="LinkedIn Logo" />
+          <img className="w-8 h-8" src="../../assets/linkedin-logo.png" alt="LinkedIn Logo" />
         </a>
         <a href="mailto:nvandy2373@gmail.com" className="mx-2">
-          <img className="w-8 h-8" src=".././src/assets/gmail-image.png" alt="Gmail Logo" />
+          <img className="w-8 h-8" src="../../assets/gmail-image.png" alt="Gmail Logo" />
         </a>
         <a
-          href=".././src/assets/resume/Richard_Vanderipe-Resume.pdf"
+          href="../../assets/resume/Richard_Vanderipe-Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="mx-2"

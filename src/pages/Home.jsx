@@ -10,6 +10,7 @@ function About() {
   const getAboutData = async () => {
     const response = await fetch("./about.json");
     const data = await response.json();
+    console.log(data)
     setAbout(data);
   };
 

@@ -24,7 +24,6 @@ function About() {
         <div className="flex flex-col items-center">
           <img src={about.headshot} className="rounded-full mb-4 w-80 h-80" alt="Headshot" />
           <h2 className="text-3xl font-semibold text-gray-800">{about.name}</h2>
-          <h3 className="text-gray-500">{about.email}</h3>
         </div>
         <div className="mt-8">
           <p className="text-lg text-gray-700">{about.bio}</p>

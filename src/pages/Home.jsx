@@ -22,7 +22,7 @@ function About() {
     <div className="bg-gray-100 py-12" id ="About">
       <div className="max-w-4xl mx-auto px-4">
         <div className="flex flex-col items-center">
-          <img src={about.headshot} className="rounded-full mb-4 w-32 h-32" alt="Headshot" />
+          <img src={about.headshot} className="rounded-full mb-4 w-80 h-80" alt="Headshot" />
           <h2 className="text-3xl font-semibold text-gray-800">{about.name}</h2>
           <h3 className="text-gray-500">{about.email}</h3>
         </div>

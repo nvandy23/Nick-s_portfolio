@@ -1,6 +1,6 @@
 {
   "name": "Nick Vanderipe",
   "email": "nvandy2373@gmail.com",
-  "headshot": "../src/pages/Headshot.JPG",
+  "headshot": "./assets/Headshot.JPG",
   "bio": "I am a recent graduate of General Assembly's Software Engineering Immersive Bootcamp, a comprehensive program that has equipt me with the practical skills and knowledge neededed to thrive in the ever-evolving tech landscape.Driven by a curiosity for problem-solving and a desire to make a positive impact through technology, I am dedicated to learning and growing in this dynamic field. My enthusiasm for coding and building solutions motivates me to push boundaries and explore new possibilities."
 }

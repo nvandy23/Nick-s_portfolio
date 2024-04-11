@@ -22,7 +22,8 @@ function Projects() {
           {projects.map((project) => (
             <div key={project.id} className="project-image-container text-center mb-8 mx-4">
               <img src={project.image} alt={project.name} className="mb-4 rounded" />
-              <div className="flex space-x-4">
+              <h2 className="text-xl font-semibold mb-2">{project.name}</h2>
+              <div className="flex justify-center space-x-4"> {/* Changed to flex justify-center */}
                 <a href={project.git} className="bg-blue-500 text-white px-4 py-2 rounded">
                   Github
                 </a>
@@ -41,5 +42,7 @@ function Projects() {
 }
 
 export default Projects;
+
+
 
 

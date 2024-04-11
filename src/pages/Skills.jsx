@@ -1,7 +1,7 @@
 function Skill() {
     return (
-      <div className="container mx-auto p-8">
-        <h1 className="text-3xl font-bold text-center mb-8">Skills:</h1>
+      <div className="container mx-auto p-8" id="Skills">
+        <h1 className="text-3xl font-bold text-center mb-8">Languages and frameworks:</h1>
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
           <SkillItem src="../../assets/HTML5.png" alt="HTML5" title="HTML5" />
           <SkillItem src="../../assets/CSS3.png" alt="CSS3" title="CSS3" />

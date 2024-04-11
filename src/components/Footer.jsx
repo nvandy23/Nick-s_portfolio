@@ -1,6 +1,6 @@
 function Footer(props) {
   return (
-    <div className="text-center">
+    <div className="text-center" id="Footer">
       <h1 className="mb-2">@Richard (Nick) Vanderipe 2024 All rights reserved</h1>
       <h2 className="flex items-center justify-center">
         Site powered by: 

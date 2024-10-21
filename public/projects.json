@@ -11,13 +11,6 @@
       "git": "https://github.com/connorgunter/music-playlist-app?tab=readme-ov-file",
       "image":"./assets/BeatBuddy.png"
     },
- 
-    {
-      "name": "Allstar Analytics",
-      "live": "https://tiny-faun-82bd85.netlify.app/",
-      "git": "https://github.com/nvandy23/Allstar-analytics",
-      "image": "./assets/allstar_analytics.png"
-    },
 
     {
     "name": "StreamSeek",

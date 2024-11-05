@@ -6,6 +6,14 @@
       "image": "https://github.com/nvandy23/P1-Memory-Matcher-game/raw/main/images/Match_screen.jpg"
     },
     {
+  
+      "name": "Vandy BlackJack",
+      "live": "https://vandyblackjack.netlify.app/",
+      "git": "https://github.com/nvandy23/BlackJack-game",
+      "image": "./assets/blackjack.png"
+    }
+    
+    {
       "name": "BeatBuddy",
       "live": "https://beatbuddy-7a9e4cc3fd5d.herokuapp.com/",
       "git": "https://github.com/connorgunter/music-playlist-app?tab=readme-ov-file",
@@ -18,5 +26,5 @@
     "git": "https://github.com/nvandy23/StreamSeek-Capstone-Frontend",
     "image": "./assets/Trending_movies_page.png"
   }
-
+  
   ]

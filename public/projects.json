@@ -11,7 +11,7 @@
       "live": "https://vandyblackjack.netlify.app/",
       "git": "https://github.com/nvandy23/BlackJack-game",
       "image": "./assets/blackjack.png"
-    }
+    },
     
     {
       "name": "BeatBuddy",
@@ -26,5 +26,5 @@
     "git": "https://github.com/nvandy23/StreamSeek-Capstone-Frontend",
     "image": "./assets/Trending_movies_page.png"
   }
-  
+
   ]
